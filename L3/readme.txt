@@ -1,0 +1,7 @@
+- apel constructori / destructori
+- membri si vizibilitate
+- new placement
+- initializare membri in constructor
+- singleton
+- constructor copiere
+- lucru cu memoria
