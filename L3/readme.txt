@@ -1,7 +1,8 @@
-- apel constructori / destructori
-- membri si vizibilitate
-- new placement
-- initializare membri in constructor
-- singleton
-- constructor copiere
 - lucru cu memoria
+- membri si vizibilitate
+- singleton
+- apel constructori / destructori
+- initializare membri in constructor
+- constructor copiere
+
+- new placement
