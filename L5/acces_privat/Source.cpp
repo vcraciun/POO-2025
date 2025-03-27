@@ -1,7 +1,5 @@
 #include "Header.h"
 
-#define FUNCTIE_SECRETA(a,b) ((a<<b) | (a>>(8-b)))
-
 extern void FunctieDubioasa();
 
 int main()

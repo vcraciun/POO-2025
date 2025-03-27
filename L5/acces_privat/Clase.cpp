@@ -145,6 +145,3 @@ void FunctieDubioasa()
     my_s2();
     printf("x3 = %d\n", x3);
 }
-
-
-
