@@ -1,0 +1,29 @@
+2. Sa se scrie un program care afiseaza la consola o fereastra similara cu cea din p2.png
+Pentru pozitionat cursorul si schimbat culorile in consola, pe Windows vom folosi:
+
+#include <windows.h>
+HANDLE hh = GetStdHandle(STD_OUTPUT_HANDLE);
+SetConsoleTextAttribute(hh, color);
+SetConsoleCursorPosition(hh, { (short)x,(short)(y) });
+printf("..............");
+SetConsoleTextAttribute(hh, 0x07);
+
+0x07 = 0 background negru, 7 foreground gri
+
+tabel culori:
+0 - negru
+1 - albastru inchis
+2 - verde inchis
+3 - cyan inchis
+4 - rosu
+5 - magenta
+6 - masliniu
+7 - gri deschis
+8 - gri inchis
+9 - albastru deschis
+10 - verde deschis
+11 - cyan deschis
+12 - rosu deschis
+13 - magenta deschis
+14 - galben
+15 - alb
