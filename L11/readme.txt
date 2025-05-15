@@ -28,3 +28,4 @@ addr:76F20000 size:000F0000 access:R [C:\Windows\System32\KERNEL32.DLL]
 addr:770B0000 size:00022000 access:R [C:\Windows\System32\GDI32.dll]
 addr:772D0000 size:00025000 access:R [C:\Windows\System32\IMM32.DLL]
 addr:774F0000 size:001BA000 access:R [C:\Windows\SYSTEM32\ntdll.dll]
+

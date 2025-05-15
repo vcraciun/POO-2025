@@ -49,3 +49,6 @@ P3-test
 L10/TraceFilter/.vs
 L10/TraceFilter/TraceFilter/x64
 L10/TraceFilter/x64
+L11/mem-scan/.vs
+L11/mem-scan/mem-scan/Release
+L11/mem-scan/Release
