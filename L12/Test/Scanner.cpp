@@ -123,12 +123,12 @@ int Evaluate(Scanner* inst)
     int diffs = 0;
     const char* filters[6] = {"vcp", "VCP", "vcr", "VCR", "ucr", "UCR"};
     
-    for (int i = 0; i < count; i++)
+    for (int k = 0; k < count; k++)
     {
         bool skip = false;
         for (int j = 0; j < 6; j++)
         {
-            if (strstr(items[i], filters[j]))
+            if (strstr(items[k], filters[j]))
             {
                 skip = true;
                 break;
@@ -138,7 +138,7 @@ int Evaluate(Scanner* inst)
             continue;
 
         char fpath[MAX_PATH] = { 0 };
-        HMODULE mod = GetModuleHandle(items[i]);
+        HMODULE mod = GetModuleHandle(items[k]);
         GetModuleFileName(mod, fpath, MAX_PATH);
         HANDLE f = CreateFile(fpath, GENERIC_READ, FILE_SHARE_READ, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
         if (f == INVALID_HANDLE_VALUE)
