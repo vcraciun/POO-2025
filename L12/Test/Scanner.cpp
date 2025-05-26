@@ -137,6 +137,7 @@ int Evaluate(Scanner* inst)
         if (skip)
             continue;
 
+        printf("%s\n", items[k]);
         char fpath[MAX_PATH] = { 0 };
         HMODULE mod = GetModuleHandle(items[k]);
         GetModuleFileName(mod, fpath, MAX_PATH);

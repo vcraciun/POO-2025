@@ -52,3 +52,8 @@ L10/TraceFilter/x64
 L11/mem-scan/.vs
 L11/mem-scan/mem-scan/Release
 L11/mem-scan/Release
+L12/.vs
+L12/Release
+L12/Test/Release
+L12/Test/pids.json
+L12/Test/scan.py
